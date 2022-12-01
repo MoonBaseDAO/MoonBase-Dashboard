@@ -6,6 +6,7 @@ import {
   DISCOVER,
   MY_DAOS_URL,
   MY_FEED_URL,
+  SPACE_RANCH_URL,
   MEMBERS_URL,
   BOUNTIES_URL,
   PROPOSALS_URL,
@@ -66,49 +67,57 @@ export const CREATE_DAO_NAV_CONFIG: NavItemProps = {
   authRequired: true,
 };
 
+export const HOME_CONFIG: NavItemProps = {
+  icon: 'sidebarHome',
+  hoverIcon: 'sidebarHome',
+  href: SPACE_RANCH_URL,
+  label: 'Home',
+  authRequired: true,
+};
+
 export const MEMBERS_CONFIG: NavItemProps = {
-  icon: 'aCreateDao',
-  hoverIcon: 'aCreateDaoHover',
+  icon: 'filterMembers',
+  hoverIcon: 'filterMembers',
   href: MEMBERS_URL,
-  label: 'Create DAO',
+  label: 'Members',
   authRequired: true,
 };
 
 export const BOUNTIES_CONFIG: NavItemProps = {
-  icon: 'aBounties',
-  hoverIcon: 'aBountiesHover',
+  icon: 'sidebarBounties',
+  hoverIcon: 'sidebarBounties',
   href: BOUNTIES_URL,
   label: 'Bounties',
   authRequired: true,
 };
 
 export const PROPOSALS_CONFIG: NavItemProps = {
-  icon: 'aProposals',
-  hoverIcon: 'aProposalsHover',
+  icon: 'proposalBounty',
+  hoverIcon: 'proposalBounty',
   href: PROPOSALS_URL,
   label: 'Proposals',
   authRequired: true,
 };
 
 export const POLLS_CONFIG: NavItemProps = {
-  icon: 'aPolls',
-  hoverIcon: 'aPollsHover',
+  icon: 'polls',
+  hoverIcon: 'polls',
   href: POLLS_URL,
   label: 'Polls',
   authRequired: true,
 };
 
 export const TREASURY_CONFIG: NavItemProps = {
-  icon: 'aTreasury',
-  hoverIcon: 'aTreasuryHover',
+  icon: 'stateTreasury',
+  hoverIcon: 'stateTreasury',
   href: TREASUREY_URL,
   label: 'Treasury',
   authRequired: true,
 };
 
 export const ORGANIZATION_CONFIG: NavItemProps = {
-  icon: 'aOrganization',
-  hoverIcon: 'aOrganizationHover',
+  icon: 'organization',
+  hoverIcon: 'organization',
   href: ORGANIZATION_URL,
   label: 'Organization',
   authRequired: true,

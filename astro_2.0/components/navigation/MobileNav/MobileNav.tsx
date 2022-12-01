@@ -4,8 +4,13 @@ import { useWalletContext } from 'context/WalletContext';
 
 import {
   CFC_LIBRARY_NAV_CONFIG,
-  MY_DAOS_NAV_CONFIG,
-  MY_FEED_NAV_CONFIG,
+  HOME_CONFIG,
+  MEMBERS_CONFIG,
+  BOUNTIES_CONFIG,
+  PROPOSALS_CONFIG,
+  POLLS_CONFIG,
+  TREASURY_CONFIG,
+  ORGANIZATION_CONFIG,
   ASTRO_FEED_NAV_CONFIG,
   DISCOVER_NAV_CONFIG,
 } from 'astro_2.0/components/navigation/navConfig';
@@ -20,11 +25,13 @@ export const MobileNav: VFC = () => {
 
   const navConfig = accountId
     ? [
-        MY_FEED_NAV_CONFIG,
-        MY_DAOS_NAV_CONFIG,
-        CFC_LIBRARY_NAV_CONFIG,
-        DISCOVER_NAV_CONFIG,
-        ASTRO_FEED_NAV_CONFIG,
+        HOME_CONFIG,
+        MEMBERS_CONFIG,
+        BOUNTIES_CONFIG,
+        PROPOSALS_CONFIG,
+        POLLS_CONFIG,
+        TREASURY_CONFIG,
+        ORGANIZATION_CONFIG,
       ]
     : [DISCOVER_NAV_CONFIG, CFC_LIBRARY_NAV_CONFIG, ASTRO_FEED_NAV_CONFIG];
 
