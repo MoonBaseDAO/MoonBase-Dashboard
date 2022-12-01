@@ -41,12 +41,12 @@ export const AppHeader: FC = () => {
       {renderLogo()}
       <div className={centralPartClassName} ref={centralEl}>
         {renderLogo(styles.mobileLogo)}
-        <SearchBar
+        {/* <SearchBar
           withSideBar
           placeholder={t('header.search.placeholder')}
           parentElRef={centralEl}
           className={styles.search}
-        />
+        /> */}
       </div>
       <AppHealth />
       {!!accountId && <NotificationsBell className={styles.bell} />}

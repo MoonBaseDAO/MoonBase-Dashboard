@@ -33,7 +33,11 @@ export const MobileNav: VFC = () => {
         TREASURY_CONFIG,
         ORGANIZATION_CONFIG,
       ]
-    : [DISCOVER_NAV_CONFIG, CFC_LIBRARY_NAV_CONFIG, ASTRO_FEED_NAV_CONFIG];
+    : [
+        // DISCOVER_NAV_CONFIG, 
+        // CFC_LIBRARY_NAV_CONFIG, 
+        // ASTRO_FEED_NAV_CONFIG
+      ];
 
   const navItems = navConfig.map(conf => {
     return (
