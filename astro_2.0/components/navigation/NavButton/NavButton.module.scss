@@ -1,7 +1,7 @@
 @import 'styles/mixins';
 
 .root {
-  color: var(--color-neutral-60);
+  color: var(--color-space-1);
   cursor: pointer;
   display: flex;
   font-family: var(--font-family-primary);
@@ -20,7 +20,7 @@
 
   &:hover,
   &.active {
-    color: var(--color-neutral-80);
+    color: var(--color-white);
   }
 }
 

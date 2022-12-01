@@ -65,7 +65,7 @@
   &::before {
     background-image: linear-gradient(
       to right,
-      var(--color-background),
+      var(--color-cyan-2),
       rgba(0, 0, 0, 0)
     );
     content: '';
@@ -79,7 +79,7 @@
   &::after {
     background-image: linear-gradient(
       to left,
-      var(--color-background),
+      var(--color-cyan-2),
       rgba(0, 0, 0, 0)
     );
     content: '';

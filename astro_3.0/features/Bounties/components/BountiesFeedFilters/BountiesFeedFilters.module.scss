@@ -62,11 +62,11 @@
   position: relative;
 
   &::before {
-    // background-image: linear-gradient(
-    //   to right,
-    //   var(--color-white),
-    //   rgba(0, 0, 0, 0)
-    // );
+    background-image: linear-gradient(
+      to right,
+      var(--color-cyan-2),
+      rgba(0, 0, 0, 0)
+    );
     content: '';
     height: 100%;
     left: 0;
@@ -76,11 +76,11 @@
   }
 
   &::after {
-    // background-image: linear-gradient(
-    //   to left,
-    //   var(--color-white),
-    //   rgba(0, 0, 0, 0)
-    // );
+    background-image: linear-gradient(
+      to left,
+      var(--color-cyan-2),
+      rgba(0, 0, 0, 0)
+    );
     content: '';
     height: 100%;
     position: absolute;
