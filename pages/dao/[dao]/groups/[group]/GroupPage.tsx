@@ -52,7 +52,7 @@ const GroupPage: VFC<GroupPageProps> = ({ daoContext, membersStats }) => {
       defaultProposalType={ProposalVariant.ProposeCreateGroup}
     >
       <Head>
-        <title>DAO Groups Page</title>
+        <title>DAO Members</title>
       </Head>
       <GroupsPageContent
         daoContext={daoContext}

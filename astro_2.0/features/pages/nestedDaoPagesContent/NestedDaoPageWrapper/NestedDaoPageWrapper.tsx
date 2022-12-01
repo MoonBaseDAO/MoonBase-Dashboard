@@ -104,8 +104,8 @@ export const NestedDaoPageWrapper: FC<NestedDaoPageWrapperProps> = props => {
       {header && header(onCreateProposal)}
       <MainLayout>
         <div className={cn(styles.root, className)}>
-          {renderBreadcrumbs()}
-          {/* <DaoDetailsMinimized
+          {/* {renderBreadcrumbs()}
+          <DaoDetailsMinimized
             dao={dao}
             className={styles.dao}
             userPermissions={userPermissions}

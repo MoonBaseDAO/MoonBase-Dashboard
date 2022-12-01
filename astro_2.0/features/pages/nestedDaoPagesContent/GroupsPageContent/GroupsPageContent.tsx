@@ -110,14 +110,14 @@ export const GroupsPageContent: VFC<GroupsPageContentProps> = ({
         groups={availableGroups}
         daoId={dao.id}
       />
-      <div className={styles.filter}>
+      {/* <div className={styles.filter}>
         <Dropdown
           options={sortOptions}
           value={activeSort}
           defaultValue={activeSort}
           onChange={value => setActiveSort(value ?? sortOptions[0].value)}
         />
-      </div>
+      </div> */}
       <div className={styles.content}>
         {sortedData.map(item => (
           <MemberCard

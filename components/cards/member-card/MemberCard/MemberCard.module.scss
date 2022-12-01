@@ -2,9 +2,11 @@
 
 .root {
   align-items: center;
-  background: var(--color-neutral-10);
+  background: var(--color-cyan-3);
   border: 0;
   border-radius: 8px;
+  border: 1px solid var(--color-space-1);
+  color: var(--color-space-1);
   display: grid;
   flex-direction: column;
   grid-template-areas:
@@ -112,7 +114,7 @@
   white-space: nowrap;
 
   .label {
-    color: var(--color-neutral-60);
+    color: var(--color-space-1);
   }
 
   .value {
