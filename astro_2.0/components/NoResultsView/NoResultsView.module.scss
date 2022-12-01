@@ -22,13 +22,13 @@
 
 .title {
   @extend %title3;
-  color: var(--color-brand-black);
+  color: var(--color-space-1);
   text-align: center;
 }
 
 .desc {
   @extend %body2;
-  color: var(--color-brand-black);
+  color: var(--color-space-1);
   text-align: center;
 }
 
