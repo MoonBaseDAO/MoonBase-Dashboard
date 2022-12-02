@@ -4,7 +4,7 @@
 
 .label {
   @extend %caption1;
-  color: var(--color-neutral-60);
+  color: var(--color-white);
 }
 
 .root {
@@ -70,13 +70,13 @@
 
 .valueSmall {
   @extend %title3;
-  color: var(--color-neutral-90);
+  color: var(--color-space-1);
   white-space: initial;
   width: 100%;
 }
 
 .valueLarge {
-  color: var(--color-neutral-90);
+  color: var(--color-space-1);
   font-family: var(--font-family-primary);
   font-size: 22px;
   font-style: normal;
