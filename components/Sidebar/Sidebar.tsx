@@ -89,6 +89,7 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
             className={styles.item}
             myDaosIds={myDaosIds}
             href={BOUNTIES_URL}
+            target="_blank"
           />
           <NavItem
             label={t('proposals')}

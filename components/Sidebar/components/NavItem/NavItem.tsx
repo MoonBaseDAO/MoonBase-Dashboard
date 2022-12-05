@@ -34,6 +34,7 @@ interface NavItemProps extends HTMLAttributes<HTMLAnchorElement> {
   subHrefs?: string[];
   myDaosIds: string[];
   onClick?: () => void;
+  target?: string;
 }
 
 export const NavItem: FC<NavItemProps> = ({
@@ -50,6 +51,7 @@ export const NavItem: FC<NavItemProps> = ({
   myDaosIds,
   onClick,
   children,
+  target
 }) => {
   const router = useRouter();
   const daoId = router.query.dao as string;
@@ -93,6 +95,7 @@ export const NavItem: FC<NavItemProps> = ({
       onClick: handleOnClick,
       onKeyPress: handleOnClick,
       className: rootClassName,
+      target: target
     };
 
     const content = (

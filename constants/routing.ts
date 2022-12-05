@@ -2,7 +2,8 @@ export const MAIN_PAGE_URL = '/';
 export const SPACE_RANCH_URL = '/dao/spaceranch.sputnikv2.testnet';
 
 export const MEMBERS_URL = `${SPACE_RANCH_URL}/groups/all`;
-export const BOUNTIES_URL = `${SPACE_RANCH_URL}/tasks/bounties/list`;
+// export const BOUNTIES_URL = `${SPACE_RANCH_URL}/tasks/bounties/list`;
+export const BOUNTIES_URL = `https://app.dework.xyz/spaceranch`;
 export const PROPOSALS_URL = `${SPACE_RANCH_URL}/proposals`;
 export const POLLS_URL = `${SPACE_RANCH_URL}/tasks/polls`;
 export const TREASUREY_URL = '/treasury';

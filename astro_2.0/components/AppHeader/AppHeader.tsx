@@ -49,7 +49,7 @@ export const AppHeader: FC = () => {
         /> */}
       </div>
       <AppHealth />
-      {!!accountId && <NotificationsBell className={styles.bell} />}
+      {/* {!!accountId && <NotificationsBell className={styles.bell} />} */}
       <AccountDropdown />
     </header>
   );
